@@ -12,11 +12,11 @@ export function corprimaria(cor){
     let img = "";
 
     if((cor == "azul") ||(cor == "amarelo") || (cor =="vermelho")) {
-        img = "true";
+        img = true;
     }
-    else(
-        img="false;"
-    )
+    else{
+        img=false;
+    }
     return img;
 }
 

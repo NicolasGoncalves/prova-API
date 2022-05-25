@@ -36,7 +36,7 @@ server.post('/somar', (req,resp) => {
 server.get('/dia2/corprimaria/:cor', (req, resp) => {
 
     try {
-        let cor = Number(req.params.cor);
+        let cor = req.params.cor;
          
         let i = corprimaria(cor);
 
